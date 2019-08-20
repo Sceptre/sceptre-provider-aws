@@ -6,15 +6,15 @@ __version__ = "0.0.1"
 # https://github.com/Sceptre/project/wiki/sceptre-provider-template
 
 # lowercase, use `-` as separator.
-PROVIDER_FULL_NAME = 'sceptre-provider-template'
+PROVIDER_FULL_NAME = 'sceptre-provider-aws'
 # the provider call in sceptre e.g. !command_name.
-PROVIDER_SHORT_NAME = 'custom_provider'
+PROVIDER_SHORT_NAME = 'aws'
 # do not change. Rename provider/provider.py to provider/{PROVIDER_COMMAND_NAME}.py
 PROVIDER_MODULE_NAME = 'provider.{}'.format(PROVIDER_SHORT_NAME)
 # CamelCase name of provider class in provider.provider.
-PROVIDER_CLASS = 'Provider'
+PROVIDER_CLASS = 'AwsProvider'
 # One line summary description
-PROVIDER_DESCRIPTION = ''
+PROVIDER_DESCRIPTION = 'AWS Provider for Sceptre'
 # if multiple use a single string with comma separated names.
 PROVIDER_AUTHOR = 'Sceptre'
 # if multiple use single string with commas.
